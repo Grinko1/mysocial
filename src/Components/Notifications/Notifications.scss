@@ -1,0 +1,22 @@
+.notification {
+  flex: 2;
+  .notif__head {
+    color: gray;
+  }
+  .notification__msg {
+    text-align: center;
+    a {
+      color: black;
+    }
+    .notification__msg-icon {
+      color: green;
+      font-size: 18px;
+    }
+  }
+  .notification__about{
+      margin-bottom: 20px;
+  }
+  .notification__closeFriend{
+    text-align: center;
+  }
+}

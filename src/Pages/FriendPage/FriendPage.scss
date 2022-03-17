@@ -1,0 +1,62 @@
+.friendPage {
+  height: 1000px;
+  .friendPage__container {
+    width: 80%;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(253, 248, 239);
+
+    .friendPage__head {
+      display: flex;
+      width: 700px;
+      margin: auto;
+      padding: 40px;
+      .friendPage__head-imgs {
+        width: 400px;
+        height: 250px;
+        .friendPage__head-img {
+          width: 250px;
+          height: 250px;
+          object-fit: cover;
+          border-radius: 50%;
+          padding-top: 20px;
+        }
+      }
+      .friendPage__head-info {
+        .friendPage__head-h2 {
+          color: gray;
+        }
+        .riendPage__head-p{
+            font-size: 18px;
+        }
+      }
+      .friendPage__head-folw{
+          display: flex;
+          align-items: center;
+          margin-left: 50px;
+          .friendPage__head-btn{
+              width: 150px;
+            border: none;
+            background-color:  #1877f2;
+            color: white;
+            font-size: 16px;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+      }
+    }
+
+    .friendPage__hr{
+        width: 100%;
+        border-bottom: 2px solid red;
+    }
+    .friendPage__posts{
+        width: 70%;
+        margin-left: 18%;
+        .friendPage__posts-h2{
+          color: gray;
+        }
+    }
+  }
+}

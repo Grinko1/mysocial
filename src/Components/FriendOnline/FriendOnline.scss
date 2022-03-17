@@ -1,0 +1,31 @@
+.rigth__friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  .rigth__img-profileContainer {
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    .rigth__profileImg {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .rigth__online {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: rgb(42, 201, 42);
+      position: absolute;
+      top: -2px;
+      left: 29px;
+      border: 2px solid white;
+    }
+    .rigth__username {
+      margin-left: 20px;
+      font-weight: 500;
+    }
+  }
+}

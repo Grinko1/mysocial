@@ -1,0 +1,29 @@
+.closeFriend {
+  .closeFriend__head {
+    color: gray;
+  }
+  .closeFriend__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      align-items: center;
+
+  
+    }
+    .closeFriend__frImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 70px;
+    }
+    .closeFriend__frName {
+      margin-left: 15px;
+
+    }
+  }
+}

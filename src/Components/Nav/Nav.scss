@@ -1,0 +1,111 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    .nav__logo-left{
+        flex: 2;
+        .nav__logo-link{
+            text-decoration: none; 
+            text-align: center;
+            .nav__logo{
+                font-size: 25px;
+                font-weight: 800;
+                color: white;
+                cursor: pointer;
+                letter-spacing: 2px ;
+            }
+            .nav__logo-icon{
+                font-size: 30px;
+            }
+        }
+   
+    }
+
+    .nav__center{
+        flex: 5;
+        .nav__search{
+            width: 80% ;
+            height: 30px;
+            background-color: white;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+  
+            .nav__search-icon{
+                font-size: 20px ;
+                width: 10%;
+               
+            }
+            .nav__search-input{
+                border: none;
+                width: 70% ;
+                padding: 0;
+            }
+            .nav__search-input:focus{
+                outline: none;
+            }
+        }
+    }
+    .nav__right{
+        flex: 4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        .nav__right-links{
+            display: flex;
+            align-items: flex-end;
+           
+            .nav__right-link{
+            
+                 margin-right: 20px;
+                 font-size: 18px;
+                 font-weight: 500;
+                 position: relative;
+                 .nav__right-icon{
+                    font-size: 22px;
+                    font-weight: 500;
+                 }
+                 .nav__right-bange{
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: white;
+                    position: absolute;
+                    top: -8px;
+                    right: -6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 12px;
+                 }
+                 a{
+                     text-decoration: none;
+                     color:white;
+                 }
+            }
+            .nav__right-link:first-child{
+                margin-left: 300px;
+            }
+        }
+    
+    }
+    .nav__end{
+        flex: 1;
+        .nav__end-img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+
+    
+}

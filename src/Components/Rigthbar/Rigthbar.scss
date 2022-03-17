@@ -1,0 +1,29 @@
+.rigthbar{
+    flex: 2.5;
+    .rigthbar__wrapper{
+        padding: 20px 20px 0 0;
+        .birthday__container{
+            display: flex;
+            align-items: center;
+            .birthday__img{
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+            .birthday__text{
+                font-weight: 300;
+                font-size: 15px;
+            }
+        }
+        .rigth__ad{
+            width: 100%;
+            border-radius: 10px;
+            margin: 30px 0;
+            .rigth__title{
+                color: rgb(61, 60, 60);
+                margin-bottom: 10px;
+            }
+            .rigth__friend-list{}
+        }
+    }
+}

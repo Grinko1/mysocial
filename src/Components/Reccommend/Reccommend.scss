@@ -1,0 +1,21 @@
+.reccommend{
+    height:100% ;
+   
+    .reccommend-head{
+       color: gray;
+    }
+    .reccommend__music{
+        .reccommend__music-block{
+            .player{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .reccommend_ad{
+        margin-top: 40px;
+        .reccommend__ad-img{
+            width: 300px;
+            cursor: pointer;
+        }
+    }
+}

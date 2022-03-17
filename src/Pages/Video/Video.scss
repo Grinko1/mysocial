@@ -1,0 +1,39 @@
+.video{
+    flex: 7;
+      height: 500px;
+      display: flex;
+  .video__wrapper{
+    flex: 5 !important;
+ 
+.video__head{
+    color: rgb(116, 114, 114);
+}
+.video__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 15px;
+    margin-left: 150px;
+    .video__item{
+   
+        display: flex;
+        width: 310px;
+        flex-direction: column;
+        border: 1px solid lightgray;
+        padding: 10px;
+        border-radius: 10px;
+        .video__item-animate{
+            
+        }
+ .video__item-author{
+     margin-top: 10px;
+     font-weight: 500;
+    span{
+        font-size: 12px;
+        color: gray;
+    } 
+ }
+    }
+}
+}
+}
