@@ -364,4 +364,4 @@ export const Users = [
     },
   ];
 
-  export const url = 'http://localhost:3000/assets/'
+  export const url = 'https://social-acb6snue1-grinko1.vercel.app/assets/'
